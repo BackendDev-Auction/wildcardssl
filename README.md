@@ -92,7 +92,7 @@ IMPORTANT NOTES:
 ```
 
 
-**(Optional)** For Renew certificate use this command**  
+**(Optional) For Renew certificate use this command**  
 
 ``` sudo ./certbot-auto --config-dir efs/  --agree-tos --manual-public-ip-logging-ok --server https://acme-v02.api.letsencrypt.org/directory -d *.auctionmobility.com --manual --preferred-challenges dns-01 certonly --force-renewal --email abc@gmail.com ```
 
