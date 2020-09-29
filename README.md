@@ -13,6 +13,8 @@ Now comes to the AWS EFS part. It is a storage service offer by AWS so  Amazon E
 
 **STEP 1:** First of all Provision a EFS server by using AWS EFS service.
 
+**Goto: > Filesystem > create file system > then click on customize option > choose name > select dev-auctionmobility-vpc and its subnets > do next ...
+
 ![alt tag](
 https://cf-templates-1itkybct44c2t-us-east-1.s3.amazonaws.com/efs-dash.png)
 
