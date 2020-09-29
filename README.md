@@ -55,6 +55,23 @@ https://cf-templates-1itkybct44c2t-us-east-1.s3.amazonaws.com/efs-dash.png)
 
 **Note :- Here i configure the certificate path in efs/ folder by this command --config-dir efs/**
 
+**expected output:**
+
+```
+Plugins selected: Authenticator manual, Installer None
+Obtaining a new certificate
+Performing the following challenges:
+dns-01 challenge for domain.com
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Please deploy a DNS TXT record under the name
+_acme-challenge.domain.com with the following value:
+SiPbTUGdqp37WnMNnG17N4qoZEVIiuO_MivrrhYmW-Y
+Before continuing, verify the record is deployed.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+```
+
+**After that create TXT record in your Route53 with its value as above and then press enter for continue**
+
 
 **(Optional)** For Renew certificate use this command**  
 
