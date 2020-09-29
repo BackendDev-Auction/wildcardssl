@@ -72,6 +72,25 @@ Before continuing, verify the record is deployed.
 
 **After that create TXT record in your Route53 with its value as above and then press enter for continue**
 
+**Here you can see the output**
+
+```
+Press Enter to Continue
+Waiting for verification...
+Cleaning up challenges
+IMPORTANT NOTES:
+ - Congratulations! Your certificate and chain have been saved at:
+   /etc/letsencrypt/live/domain.com/fullchain.pem
+   Your key file has been saved at:
+   /etc/letsencrypt/live/domain.com/privkey.pem
+   Your cert will expire on 2020-09-06. To obtain a new or tweaked
+   version of this certificate in the future, simply run certbot
+   again. To non-interactively renew *all* of your certificates, run
+   "certbot renew"
+
+
+```
+
 
 **(Optional)** For Renew certificate use this command**  
 
