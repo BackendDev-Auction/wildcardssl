@@ -34,7 +34,7 @@ https://cf-templates-1itkybct44c2t-us-east-1.s3.amazonaws.com/efs-dash.png)
 
 ``` cd efs-utils/ && ./build-deb.sh ```
 
-``` cd efs-utils/ && sudo apt-get -y install ./build/amazon-efs-utils*deb ```
+``` sudo apt-get -y install ./build/amazon-efs-utils*deb ```
 
 **STEP 4:** 
 **Mount EFS server to specific folder** so create any folder here i create with the name of efs
