@@ -11,7 +11,11 @@ Now comes to the AWS EFS part. It is a storage service offer by AWS so  Amazon E
 
 
 
-**STEP 1:** First of all Provision a EFS server by using AWS EFS. 
+**STEP 1:** First of all Provision a EFS server by using AWS EFS service.
+
+![alt tag](
+https://cf-templates-1itkybct44c2t-us-east-1.s3.amazonaws.com/efs-dash.png)
+
 
 
 **STEP 2:** After that create 2 EC2 server one is SSL generate server (Master server) and another is slave server which consume SSL certificate through EFS.
