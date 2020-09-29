@@ -5,6 +5,12 @@
 
 ### Getting started 
 
+Befor we start here we disscuss about Certbot and AWS EFS  because with the help of certbot & EFS  we can generate and store the SSL Certificates so, Certbot is an easy-to-use automatic client that fetches and deploys SSL/TLS certificates for your webserver and here is official website https://certbot.eff.org/
+
+Now comes to the AWS EFS part. It is a storage service offer by AWS so  Amazon Elastic File System (Amazon EFS) provides a simple, scalable, fully managed elastic NFS file system for use with AWS Cloud services and on-premises resources. It is built to scale on demand to petabytes without disrupting applications, growing and shrinking automatically as you add and remove files, eliminating the need to provision and manage capacity to accommodate growth.
+
+
+
 **STEP 1:** First of all Provision a EFS server by using AWS EFS. 
 
 
